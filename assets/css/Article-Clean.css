@@ -82,13 +82,45 @@ sub-heading {
 .h1, h1 {
 }
 
-h1.sub-heading {
+h1.sub-heading-two {
   font-family: avenir next;
   font-size: 24px;
-  color: black;
+  color: #4A4A4A;
+  font-weight: bold;
+  line-height: 40px;
+  margin-top: 32px;
+  padding: 16px 0;
+}
+
+h1.sub-heading, h1.sub-heading-two {
+  font-family: avenir next;
+  font-size: 24px;
+  color: #4A4A4A;
   font-weight: normal;
   line-height: 40px;
   margin-top: 32px;
   padding: 16px 0;
+}
+
+.web-app {
+  max-width: 640px;
+}
+
+@media (min-width: 300px) {
+  .web-app {
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 576px) {
+  .web-app {
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .web-app {
+    max-width: 640px;
+  }
 }
 
