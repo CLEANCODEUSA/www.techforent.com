@@ -1,18 +1,16 @@
 .features-blue {
   color: #fff;
-  background: linear-gradient(135deg, #172a74, #21a9af);
-  background-color: #184e8e;
+  background-color: #4A90E2;
   padding-bottom: 30px;
-}
-
-@media (max-width:767px) {
-  .features-blue {
-    padding-bottom: 10px;
-  }
+  padding-top: 20px;
 }
 
 .features-blue p {
-  color: rgba(255,255,255,0.6);
+  color: white;
+  font-size: 24px;
+  /*font-weight: bold;*/
+  font-family: montserrat;
+  margin: 40px auto;
 }
 
 .features-blue h2 {
@@ -24,7 +22,7 @@
 
 @media (max-width:767px) {
   .features-blue h2 {
-    margin-bottom: 25px;
+    margin-bottom: 24px;
     padding-top: 25px;
     font-size: 24px;
   }
@@ -32,7 +30,7 @@
 
 .features-blue .intro {
   font-size: 16px;
-  max-width: 500px;
+  /*max-width: 500px;*/
   margin: 0 auto 60px;
 }
 
@@ -69,7 +67,7 @@
 
 .features-blue .item .icon {
   font-size: 40px;
-  color: #ffcc1e;
+  color: white;
   float: left;
   margin-left: -65px;
 }

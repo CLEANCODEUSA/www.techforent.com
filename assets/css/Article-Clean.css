@@ -79,27 +79,24 @@
 sub-heading {
 }
 
-.h1, h1 {
-}
-
 h1.sub-heading-two {
-  font-family: avenir next;
+  font-family: montserrat;
   font-size: 24px;
   color: #4A4A4A;
-  font-weight: bold;
   line-height: 40px;
   margin-top: 32px;
   padding: 16px 0;
 }
 
 h1.sub-heading, h1.sub-heading-two {
-  font-family: avenir next;
+  font-family: montserrat;
   font-size: 24px;
   color: #4A4A4A;
-  font-weight: normal;
   line-height: 40px;
-  margin-top: 32px;
-  padding: 16px 0;
+  margin-top: 24px;
+  text-align: center;
+  margin: 40px auto 48px auto;
+  /*margin-top: 16px;*/
 }
 
 .web-app {
@@ -121,6 +118,8 @@ h1.sub-heading, h1.sub-heading-two {
 @media (min-width: 768px) {
   .web-app {
     max-width: 640px;
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -155,20 +154,15 @@ h1.sub-heading, h1.sub-heading-two {
   margin: -12px 16px 0 0;
 }
 
-.tech-support-and-design {
-  margin-top: 125px;
-  float: left;
-  width: 100%;
-  text-align: left;
-}
-
 .tech-support-p {
   text-align: left;
   margin-top: 16px;
+  font-family: montserrat;
+  font-size: 18px;
 }
 
 .design {
-  margin-top: 48px;
+  margin-top: 16px;
 }
 
 .design {
@@ -194,7 +188,7 @@ footer li {
 }
 
 h3.quote-msg {
-  font-family: avenir next;
+  font-family: montserrat;
   font-size: 24px;
   font-weight: bold;
   line-height: 56px;
@@ -240,10 +234,109 @@ span {
   }
 }
 
-.col-5.col-sm-3.col-md-2.col-lg-2.col-xl-2 {
+@media (min-width: 300px) {
+  .quote-img {
+    max-width: 80px;
+  }
 }
 
-.container.quote-container {
-  margin-top: 36px;
+@media (min-width: 576px) {
+  .quote-img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 300px) {
+  .iphone-with-purple-bg {
+    max-width: 240px;
+  }
+}
+
+@media (min-width: 576px) {
+  .iphone-with-purple-bg {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .iphone-with-purple-bg {
+    max-width: 400px;
+  }
+}
+
+.contact-us {
+}
+
+.contact-us h1 {
+  color: white;
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+p.copyright {
+  text-align: center;
+}
+
+.social .copyright {
+  text-align: right;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+}
+
+.input-group > .custom-select:not(:first-child), .input-group > .form-control:not(:first-child) {
+  background-color: #4A90E2;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+textarea {
+  background-color: #4A90E2;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.get-a-quote {
+  font-size: 44px;
+  margin: 60px auto 24px auto;
+  font-family: montserrat;
+}
+
+label {
+  font-size: 24px;
+  font-family: montserrat;
+  margin-top: bold;
+}
+
+.quote-container {
+  padding: 60px auto;
+  background-color: #eef4f7;
+  padding: 48px 0;
+}
+
+.nav-item .contact-us {
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+}
+
+.text-center.telephone {
+  margin-top: 24px;
+}
+
+.tech-support {
+  padding: 40px 0px;
+}
+
+.text-center.sub-heading {
+  font-size: 24px;
+  font-family: montserrat;
+}
+
+.text-center {
+  font-family: montserrat;
 }
 
