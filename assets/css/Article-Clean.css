@@ -96,7 +96,7 @@ h1.sub-heading, h1.sub-heading-two {
   margin-top: 24px;
   text-align: center;
   margin: 40px auto 48px auto;
-  /*margin-top: 16px;*/
+  font-weight: normal;
 }
 
 .web-app {
@@ -299,12 +299,6 @@ textarea {
   border-bottom: 1px solid white;
 }
 
-.get-a-quote {
-  font-size: 44px;
-  margin: 60px auto 24px auto;
-  font-family: montserrat;
-}
-
 label {
   font-size: 24px;
   font-family: montserrat;
@@ -313,7 +307,6 @@ label {
 
 .quote-container {
   padding: 60px auto;
-  background-color: #eef4f7;
   padding: 48px 0;
 }
 
@@ -325,6 +318,7 @@ label {
 
 .text-center.telephone {
   margin-top: 24px;
+  color: white;
 }
 
 .tech-support {
@@ -334,9 +328,70 @@ label {
 .text-center.sub-heading {
   font-size: 24px;
   font-family: montserrat;
+  font-weight: normal;
+  color: #4A4A4A;
 }
 
 .text-center {
   font-family: montserrat;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .web-app {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .web-app {
+    max-width: 880px;
+    display: block;
+    margin: 0 auto;
+    transition: transform .3s;
+  }
+}
+
+@media (min-width: 300px) {
+  .img-fluid {
+    max-width: 88%;
+  }
+}
+
+h1.text-center {
+  font-size: 32px;
+  margin: 60px auto 24px auto;
+  font-family: montserrat;
+}
+
+.web-app:hover {
+  transform: scale(1.05);
+}
+
+.img-fluid:hover {
+  transform: scale(1.15);
+}
+
+.img-fluid {
+  transition: transform .3s;
+}
+
+.iphone-with-purple-bg {
+  transition: transform .3s;
+}
+
+.iphone-with-purple-bg:hover {
+  transform: scale(1.1);
+}
+
+.fa {
+  margin: auto 16px;
+}
+
+.three-phones:hover {
+  transform: scale(1.05);
 }
 
