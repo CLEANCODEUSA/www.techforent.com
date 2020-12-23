@@ -1,6 +1,5 @@
 .features-blue {
   color: #fff;
-  background-color: #4A90E2;
   padding-bottom: 30px;
   padding-top: 20px;
 }
@@ -8,7 +7,7 @@
 .features-blue p {
   color: white;
   font-size: 24px;
-  /*font-weight: bold;*/
+  font-weight: bold;
   font-family: montserrat;
   margin: 40px auto;
 }
