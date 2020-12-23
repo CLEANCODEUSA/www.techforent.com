@@ -113,6 +113,7 @@ a:not([href]):not([tabindex]) {
   text-align: center;
   margin-top: 16px;
   margin: 24px auto;
+  transition: transform .3s;
 }
 
 p.our-focus.text-center {
